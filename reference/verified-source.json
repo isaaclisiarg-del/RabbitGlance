@@ -1,0 +1,17 @@
+{
+  "source_commit": "29d06ad9b1b43a2e6b2df3dcb3f2a1a200f3cf52",
+  "verified_files": 94,
+  "selected_originals": [
+    "BlackHoleArt.kt",
+    "ClockDrawDocument.kt",
+    "ClockFaceRenderer.kt",
+    "ClockPreferences.kt",
+    "ClockThemeRenderer.kt",
+    "CosmicSceneRenderer.kt",
+    "CosmicStarField.kt",
+    "CosmicWallpaperRenderer.kt",
+    "GravitationalLens.kt",
+    "OriginalWidgetArt.kt",
+    "PlatformOriginalClock.kt"
+  ]
+}

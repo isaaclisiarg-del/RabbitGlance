@@ -1,0 +1,575 @@
+{
+  "name": "RabbitGlance",
+  "source_repo": "isaaclisiarg-del/Unity-Touch-Launcher-Rabbit",
+  "source_commit": "29d06ad9b1b43a2e6b2df3dcb3f2a1a200f3cf52",
+  "module": "clockwidget",
+  "source_file_count": 94,
+  "external_asset_pack": "G2_Rabbit_Montage_Imagenes_3.8.1.zip",
+  "source_files": [
+    {
+      "path": "clockwidget/README.md",
+      "git_blob_sha1": "b9750061525701921389df6a62a9d0e83139b214",
+      "sha256": "301dedf8a1e7580af4f81b27c58cd256a581a9d7f94795da049714f4436a6d0e",
+      "bytes": 21162
+    },
+    {
+      "path": "clockwidget/NATIVE_WIDGET_RESEARCH.md",
+      "git_blob_sha1": "96edb9c9759864a4495c2a37c7653904a58c6dda",
+      "sha256": "13e4b58c648af17ff289013817ba68743ddac5e837bb578cef40c2129778f4ac",
+      "bytes": 10607
+    },
+    {
+      "path": "clockwidget/build.gradle.kts",
+      "git_blob_sha1": "600efca4db905a86288f3856943e2bbec03cd8f0",
+      "sha256": "50dc892c311a09eeb29f416d9f7a134281489b00436b666334dc75e6de70e491",
+      "bytes": 1302
+    },
+    {
+      "path": "clockwidget/CHARGING_BLACKFIRE.md",
+      "git_blob_sha1": "b001d4509fffd6da3fb22ada630b7dbf7757d44f",
+      "sha256": "998fd83fc7f526b8a01922e30c801e074fcef7238b2c6156cfdc054650bfef4f",
+      "bytes": 2839
+    },
+    {
+      "path": "clockwidget/reference/ChargingClock.kt",
+      "git_blob_sha1": "d5e72ec9ac19cba53c3deb3b5158a28268d6b6d2",
+      "sha256": "885ce9c59ac6344b33dd2693649a3e8f54155d11a198d6b6f533afb31c1cecbe",
+      "bytes": 2278
+    },
+    {
+      "path": "clockwidget/reference/ClockPreferences.kt",
+      "git_blob_sha1": "3cef3128444cc4ae6d53e1820d2e99ce7536fd4a",
+      "sha256": "832ceb15c36ff150c64481d087785521905b51e8906700a6752ebdf335cdfb49",
+      "bytes": 4138
+    },
+    {
+      "path": "clockwidget/reference/CosmicClockModel.kt",
+      "git_blob_sha1": "fc50f0b05958d33e1edc2f8c521dcf85a10dd77f",
+      "sha256": "80b5168100357b2d48cc06eca69c73f8c191d6351389a37f262c6d4f79a5f18e",
+      "bytes": 4715
+    },
+    {
+      "path": "clockwidget/reference/CosmicClockMotion.kt",
+      "git_blob_sha1": "53548d2d4879d5d7cf5c9bd5d169a921961ea433",
+      "sha256": "066ac5bff50539c5eafb95bfac79d83496fbc95cb273edb9f8472020c63f57bc",
+      "bytes": 4956
+    },
+    {
+      "path": "clockwidget/reference/CosmicClockPalette.kt",
+      "git_blob_sha1": "a028fed7e32ee045c5d5a7f2ee504b02571dfd76",
+      "sha256": "a9fd3e3106db46fab6b83dc8b4e916efe22a5726e73b4adec4eeedfb4714d2ef",
+      "bytes": 1245
+    },
+    {
+      "path": "clockwidget/reference/LauncherClock.kt",
+      "git_blob_sha1": "323324e1c099f33ddd9f47cd4e2ecc30e6506ce4",
+      "sha256": "e6587f254f3cc7aeda2c70d58c617ad58340bdc114ea3e61817c455cd9b8ef7c",
+      "bytes": 13681
+    },
+    {
+      "path": "clockwidget/reference/OriginalWelcomeGeometry.kt",
+      "git_blob_sha1": "010814d261e872fe4965c82f84897c6a6bd76ef0",
+      "sha256": "13a2e2a8b3cc53416afdfcf43c726fc9429dc5d095e238917b19c91e35234d93",
+      "bytes": 2464
+    },
+    {
+      "path": "clockwidget/reference/UbuntuWelcomeClock.kt",
+      "git_blob_sha1": "faf8c3898b57351685aae03b2a6c067eb8688fac",
+      "sha256": "b510a25792449ef918b3bd1b61933f07f62d3e87cdbcff011aa3425f89f44e91",
+      "bytes": 10364
+    },
+    {
+      "path": "clockwidget/reference/UnityChrome.kt",
+      "git_blob_sha1": "8eae4fa830d9ac340747d312de62dccfdb4fb13e",
+      "sha256": "b05d91e343693eb485ed0f7c0a14f129a2eafc9fddd1975082adc1d19eddbd5f",
+      "bytes": 395
+    },
+    {
+      "path": "clockwidget/src/main/AndroidManifest.xml",
+      "git_blob_sha1": "7266dd5e3ddc5565f0f11927e2290b734deae02d",
+      "sha256": "938c393ad791c623c8d007dddafe748b6bc9087b787680d3820fc63d6c06fa31",
+      "bytes": 3156
+    },
+    {
+      "path": "clockwidget/src/main/assets/gravitational_lens.agsl",
+      "git_blob_sha1": "7ca2ff2ffaa332bf5ab6dc69d2b342cf48691c91",
+      "sha256": "cfb0572208895ab7736bb762fb15fbfdaa3a37730b25f6d45df0e3f744b6e0ec",
+      "bytes": 555
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/BlackHoleArt.kt",
+      "git_blob_sha1": "7b05b054ba56f56e687ab794cb7165c075fc1bb0",
+      "sha256": "da7bd10a34ea4c086b35e2d30aa9b0a80eb4cc8b2722960e5228ca4b6d6e04a9",
+      "bytes": 7059
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ChargingBlackFire.kt",
+      "git_blob_sha1": "8a1b4033800aecf9df1c056256d766551ed30666",
+      "sha256": "f4973582664911351555d1d1e3cc16db6086d86a56d8d6671b792f43c8c5845f",
+      "bytes": 6717
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClassicClockWidget.kt",
+      "git_blob_sha1": "9d9ca7531ce57cde2e2cc761c92b5bb197d62b81",
+      "sha256": "991ef6b95e230f104799ddcd9de2df3a42242998b00828bc1b693b0c6603f99f",
+      "bytes": 7524
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClockDrawDocument.kt",
+      "git_blob_sha1": "d464e0562de39510a9e004a1e81ee2394a431ea9",
+      "sha256": "9ca953742d2f0cb0851bda6108d9b8751759ffcefa4b9078dcf9afe7fca3301f",
+      "bytes": 12766
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClockFaceRenderer.kt",
+      "git_blob_sha1": "d67a96ca602aeee0b6d0944fecd1fd82e5c8b2f4",
+      "sha256": "8ec3f5949957a69e2aa6c6385bf611b4dd5afbd8943492353b2a2b805b8b7d3d",
+      "bytes": 2204
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClockPreferences.kt",
+      "git_blob_sha1": "4437cfb1c1e337f0c05c8e9328f50d8779722130",
+      "sha256": "55dcca0c0ab84c9a482de74607c51c188b8ccda8c130c7c5f12d349189a01bfb",
+      "bytes": 18590
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClockRenderWorker.kt",
+      "git_blob_sha1": "b1b209b3203632f27e260c0f49b0e94f352b3ee1",
+      "sha256": "09e19da2255dc3d91a7b5c508d11af682a2259e943cf45a719c3ef503b535182",
+      "bytes": 1713
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClockThemeRenderer.kt",
+      "git_blob_sha1": "65a507d68fa9926ccde6db772863a5bad6fb481b",
+      "sha256": "213fd1c55ea197794e40669352c0fbc26884855c0a563ea50d55dd9a97140ef5",
+      "bytes": 16345
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/ClockWidgetActivity.kt",
+      "git_blob_sha1": "12915b7f4f17946dffe78a684d55c286bb448616",
+      "sha256": "a2b5d7114e5cf77bcb4c12066fd7a205a33f4ce21710e387d7af5ecc8d59a2b0",
+      "bytes": 42947
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicClockModel.kt",
+      "git_blob_sha1": "29a553070f1fc7cc784751e2830444b798bcbce2",
+      "sha256": "3ea9f25320a2756ce436f031e544875abdc682a86111c1a4130cf65f541da8be",
+      "bytes": 4717
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicClockPalette.kt",
+      "git_blob_sha1": "c48cb6d9a89b370734ed7638d5ecd5f27521990d",
+      "sha256": "1674eaeebd4d29e99bf6b25cb1453a791f96dfad260aa71652c256a243f70a11",
+      "bytes": 1631
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicColors.kt",
+      "git_blob_sha1": "bc0ad80b6fd09da683dc3507550bc1c83d3b51d7",
+      "sha256": "4238deadf8ffe0e6d5249a4837358b2c2fa59d4fa658121876f7414aeacd1d46",
+      "bytes": 3042
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicSceneRenderer.kt",
+      "git_blob_sha1": "f0a94cd980b6a8ac05f2311dee47bfcb6a5a8dca",
+      "sha256": "c3aba590687a00232b2543eeb6ea9804aac91b7a983c3dfb70656e16bb95c493",
+      "bytes": 6309
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicStarField.kt",
+      "git_blob_sha1": "fc921035bead73b2f3d8367a21110f25c292450e",
+      "sha256": "3e281a132ad20f17df6614d1a0f774d7da79a31c72f601c3930ef321cdf836c5",
+      "bytes": 4337
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicWallpaperRenderer.kt",
+      "git_blob_sha1": "0e66eff08569d80b03eb80bb6359fafafc3674e5",
+      "sha256": "860b7512f9755efbd872192a52555f1ff74f601c5151d7fd08038cb9e35cc552",
+      "bytes": 5956
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/CosmicWallpaperService.kt",
+      "git_blob_sha1": "41fd985e2daef2b36b8b9c1fcd667c9e38aae929",
+      "sha256": "099b367358549c550515c9b89c63adaddf5328118718337aaddb8ef6628d53c9",
+      "bytes": 4672
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/EstudiantesEvents.kt",
+      "git_blob_sha1": "cbcafa73545bf4c349740fd9e0e0e828e559eadc",
+      "sha256": "f2de52e57d37227ade5d581a4a5d4851ba0fff0d449a32e4ecf599cec6edee62",
+      "bytes": 16500
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/FootballBadgeAssets.kt",
+      "git_blob_sha1": "d85c5e7e268c85dc3e1fd962a19e4d569c218844",
+      "sha256": "79521bee115a7dbc7a2beb3822ae87b8a9e308e2452bb7f135b77efa447a3a03",
+      "bytes": 108556
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/FootballCrestDetails.kt",
+      "git_blob_sha1": "e2acecaabb55c7dc06bd309888a6941f855e257e",
+      "sha256": "d1752da9884f53855f37229059d2a9d490f8fb138de5d6c80cc72aee44dbf879",
+      "bytes": 10171
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/G2Events.kt",
+      "git_blob_sha1": "960277229932077eac4acee3d8d0ca574f7f9c46",
+      "sha256": "8f1bd52c67bacc6e08497b281e47685121a824d4ebc6d52938ef09f404b917f5",
+      "bytes": 13307
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/G2Montage.kt",
+      "git_blob_sha1": "923e128241fc5988a8337d08f909c33206cf5be1",
+      "sha256": "eeeffe4b4b14f5ca88f129d33d2046fcb90f0793c77989c1a2fcdc904ca5809c",
+      "bytes": 3951
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/GravitationalLens.kt",
+      "git_blob_sha1": "03e51b35f278bb40b46245861ff7edfb719616ce",
+      "sha256": "e8f8d29fd8e9c40f00cb4cbdbed24ce9fa2a3b68d897b8b46a3a37244341e4fa",
+      "bytes": 1049
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/OriginalWelcomeGeometry.kt",
+      "git_blob_sha1": "cda8f465133c73671ab4011214c9e80680343b69",
+      "sha256": "eb5f69b22537ba614d80777c0167ad702a3ee2463a6a8351a8f62e7127deacbd",
+      "bytes": 2466
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/OriginalWidgetArt.kt",
+      "git_blob_sha1": "2cbdd97cbfe5e672d2bf90273f393c98bcf938d5",
+      "sha256": "6ba35f4cee17b8446bfa044780e02ca89a27f9445c2739083d7806de100ba2b1",
+      "bytes": 6151
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/PlatformOriginalClock.kt",
+      "git_blob_sha1": "0a8f0265a79187a175c2f116b0361e577cc0133f",
+      "sha256": "19429e2da56a49e96c200dd94a4385c9deadda24e1bc2a0d5387f9d7b5329ddc",
+      "bytes": 19612
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/TeamBadgeAssets.kt",
+      "git_blob_sha1": "fac0e458dc47172a4e35bd815e2c223659f6afb6",
+      "sha256": "6c31a005926751f5a6046bce39af69a6d8aff73715a6a0a78b51e12d69e3b5d8",
+      "bytes": 231532
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/TeamLivingDetails.kt",
+      "git_blob_sha1": "ec93c02262730fcbe57cf391555a84d665c6610d",
+      "sha256": "3e971c597df23ee4943ef3bcbaaef61dc18a3a3733dcbeb3ada04ecd02e11271",
+      "bytes": 15597
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/TeamThemeRenderer.kt",
+      "git_blob_sha1": "a119a29bb57eeb5ea613abc5f9b8cb75a35307f8",
+      "sha256": "00691dbbf37d026220e66b38ff38e200fa20299251e8842dea9118bf05aa0b7d",
+      "bytes": 22961
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/UnityChrome.kt",
+      "git_blob_sha1": "11fdb3436796d459013b520cdbdbceccd23017b5",
+      "sha256": "cc36b21aa0a9a0f0c394d1bbf3651225fb06780459c34814f45e437479c38486",
+      "bytes": 219
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/WallpaperActivation.kt",
+      "git_blob_sha1": "d19966933ae40cb140cf3e4d3083167ca5411c91",
+      "sha256": "670f14059ed97fecbd1da46bce46af84951ad3d3fa5e6198e5a9ce2dc62a7a35",
+      "bytes": 1234
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/WallpaperImageStore.kt",
+      "git_blob_sha1": "858e063cb2ec042c1424bdd13e565a7c9cb060fe",
+      "sha256": "fe358702d5f5f412eaaf9d1014b0f201405ddefc8895a7038dcad0f4a905bba1",
+      "bytes": 2903
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/WallpaperLensPreview.kt",
+      "git_blob_sha1": "851066b738abce7167f1773b60eb945492d97038",
+      "sha256": "63508bbe392bd19972adcc24b29c26e1b114ef6fbde74b4f27df425633168223",
+      "bytes": 1857
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/WidgetLensAlignment.kt",
+      "git_blob_sha1": "401bd1bef440421639e38d62a70b5264fcb8de4f",
+      "sha256": "d7f2c4f1998adcb1dc795b13c076c2eaaa82a3e0d524db4551ba756754226e74",
+      "bytes": 1159
+    },
+    {
+      "path": "clockwidget/src/main/java/com/isaaclisi/classicclock/WidgetViews.kt",
+      "git_blob_sha1": "d587085290c6fb856280c33d542d979120ffec84",
+      "sha256": "0842fef8da97309883e8ecab15de037b2f2d5e2e6d3bf3d29539c6853c80ea3d",
+      "bytes": 6538
+    },
+    {
+      "path": "clockwidget/src/main/res/drawable/clock_analog_dial.xml",
+      "git_blob_sha1": "28a88651499521666702d243c3aa49e3f631243f",
+      "sha256": "39c462f78de712727bfa82125b539943488098002fcffaa96c1b31ae2066dfd5",
+      "bytes": 2014
+    },
+    {
+      "path": "clockwidget/src/main/res/drawable/clock_hand_hour.xml",
+      "git_blob_sha1": "fd2cac55fe4d5507ce15936c84c2886e63d9d70d",
+      "sha256": "9c878853458d0bdb3ba2761e4b0b82542fcc97e0131c69fb37c308c1a6daffc0",
+      "bytes": 521
+    },
+    {
+      "path": "clockwidget/src/main/res/drawable/clock_hand_minute.xml",
+      "git_blob_sha1": "34e34534295dab44275a3a89ed825c80aeee73ca",
+      "sha256": "1e85ebe10968a293410d99621a4d190074ebc64fb8e7db356e32e3645fcce65d",
+      "bytes": 521
+    },
+    {
+      "path": "clockwidget/src/main/res/drawable/clock_hand_second.xml",
+      "git_blob_sha1": "ef9921b83ce9366161eb38181439abf9f5d1e6ec",
+      "sha256": "c8dd6ae78d57cd583644b3b5b13756e3cac69a0b7a3bc22d93727148beaa4ad1",
+      "bytes": 522
+    },
+    {
+      "path": "clockwidget/src/main/res/drawable/ic_classic_clock.xml",
+      "git_blob_sha1": "161d6ed931cb6ad3ca61a0b9dafe827648a86361",
+      "sha256": "da3f86f6c74f1c5b11d9e619e5cca5e003447f3adb2204478a433b1e4828e935",
+      "bytes": 3573
+    },
+    {
+      "path": "clockwidget/src/main/res/layout/widget_classic_clock.xml",
+      "git_blob_sha1": "704a1311cd55e2c3b1d5fa75b8ee2cabcc475c30",
+      "sha256": "ad9fe1360676a038052dea3e287ab819863254e6acd996840194d0a75d8683c0",
+      "bytes": 2772
+    },
+    {
+      "path": "clockwidget/src/main/res/values/strings.xml",
+      "git_blob_sha1": "2944eab608dd8b19cc484f761ab9c3b36529bfac",
+      "sha256": "c4be6897eec3410f2aed8b26a52fc19d227bc80181751d810c9cbd0ad132a891",
+      "bytes": 580
+    },
+    {
+      "path": "clockwidget/src/main/res/values/styles.xml",
+      "git_blob_sha1": "388bf69e5cf413afbf2a239fcb856d55fea335f9",
+      "sha256": "2121403a28f9d103659cae80eeb104ee5d9990cdf7c06d4e0180f5f4a227eea5",
+      "bytes": 644
+    },
+    {
+      "path": "clockwidget/src/main/res/xml/classic_clock_widget_info.xml",
+      "git_blob_sha1": "592f7e027ade16e47201e52a50d3555a004d8649",
+      "sha256": "2ab2cc19db270946eb7231aab65a88901ad61f46ae8404669d15d0136e06afe0",
+      "bytes": 734
+    },
+    {
+      "path": "clockwidget/src/main/res/xml/cosmic_wallpaper.xml",
+      "git_blob_sha1": "f1b5a38e95663dc78c66d984042cd6e4437512c9",
+      "sha256": "369dcdf722c908c7533807e4a900f12b29a47180f0546161dd6d39175f800c53",
+      "bytes": 302
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/ChargingBlackFireTest.kt",
+      "git_blob_sha1": "d2fd6f62dff7fa25930adf32981e0046d1e1d8f8",
+      "sha256": "f97711e5c230893ae5b3d4f0365c87022b8006a7ee15631d9f796206acdd8353",
+      "bytes": 766
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/ClockCustomizationTest.kt",
+      "git_blob_sha1": "d328f8ea79ddf0a8a2cd14e1e82ea5362881b2fb",
+      "sha256": "1405a2fe2c7bd22570ac9148d9df343f8dea4a9867b6dd132a967aff7ca13dd8",
+      "bytes": 8619
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/ClockEditorTestSupport.kt",
+      "git_blob_sha1": "15f8a5804c10903e3398bd864beb49c81c1dcf24",
+      "sha256": "6ff8a823d16de27ea2e208ec6e973a779eeb65eec0325c9afb17509a39bc9c5b",
+      "bytes": 398
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/ClockThemeWidgetTest.kt",
+      "git_blob_sha1": "1251887e74e72c9bb82a25da9effa79b48c96942",
+      "sha256": "96bdf92be654b846f5e9d92e07bb0c501737cf22f3af0785b4fcc999fd167608",
+      "bytes": 5186
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/CosmosUpgradeTest.kt",
+      "git_blob_sha1": "bc10c7a9bf959668eb8f0a387d07076030338e20",
+      "sha256": "e0af76a43c06fa3bf07c9281b22d5f670d43bbbd2d072a21749cca06bf6f477c",
+      "bytes": 17371
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/EstudiantesEventTest.kt",
+      "git_blob_sha1": "75e51be1eac14153bfadd12642947b7eaaf58f91",
+      "sha256": "a4532c1022be31fd043fb5de8f58d0e14dfcc281036bc6d1bcd4e66e8fbab969",
+      "bytes": 5557
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/EventPreviewRegressionTest.kt",
+      "git_blob_sha1": "72d4a84a368ea388d480fd025680ecb7b242ec25",
+      "sha256": "7c307ad3f2e9843f0a3bdf34f774d891590eba3a1b19f0e82d6f17204775c719",
+      "bytes": 7053
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/FigureAnimationRegressionTest.kt",
+      "git_blob_sha1": "21a11cec8b0819e50513cd37127d469007dfeeed",
+      "sha256": "f1a1b9ce1d0a899f3ed3f8b0622229bd88e182bbc52843c3b27bc3f407cb30cb",
+      "bytes": 5919
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/FootballCrestTest.kt",
+      "git_blob_sha1": "cff35a99e6752f2f868ccfc85f0efe0ee0df03b0",
+      "sha256": "a749f21fecdc7cfee92b483b6b1b0e39aac44f02f1111b56b9a064eed6cbc48a",
+      "bytes": 7102
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/G2EventTest.kt",
+      "git_blob_sha1": "ebffa76ec0246d0a796f9765e4d176dd113819b9",
+      "sha256": "e66ab5c3a4f22592f804c8c6730dcd10794e6bdb08d32980ea82a2e1e7990215",
+      "bytes": 2446
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/LivingCrestTest.kt",
+      "git_blob_sha1": "97c5460ba7ebe24173d349b4a2d3f196d0ab4544",
+      "sha256": "96a1719a1ef77b24107f420839cc6b9fa5e814727def7cb18f8c39ce945ab3a0",
+      "bytes": 9737
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/NativeClockWidgetTest.kt",
+      "git_blob_sha1": "9be75cc3fc0559705243c8d9ddb2e9eedad1aef1",
+      "sha256": "d9ea17d61c2a6a72c768e4d6808f51638f3f761d474c56b21b3c53d1fed6d287",
+      "bytes": 7006
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/PlatformAnimationProbeTest.kt",
+      "git_blob_sha1": "2c8ecb08cc179012f34e6fb9b6bb8056554e53be",
+      "sha256": "9bfc820ed8dd6bd912a65b8648e1e6e53c344109e333215b3ba930de2952ef85",
+      "bytes": 9041
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/TeamThemeWidgetTest.kt",
+      "git_blob_sha1": "36e74c82f04cc809fff5e67f89a8bc3a7b743cff",
+      "sha256": "fa76a829ca5d7a490e6d5b52fe759d1e0a56d1d8deee64740efb7009db42eba5",
+      "bytes": 9508
+    },
+    {
+      "path": "clockwidget/src/test/java/com/isaaclisi/classicclock/WidgetInstanceTest.kt",
+      "git_blob_sha1": "6aa0adbd85e2f33cebce30dbcc7243cf7d31f838",
+      "sha256": "7d6197026326ae5825b4ec52589b5f4c3785aca0aec949abc0416dbec498b548",
+      "bytes": 10306
+    },
+    {
+      "path": "clockwidget/TEAM_ASSETS.md",
+      "git_blob_sha1": "efe5f85ce350df319dfccecaf093dccef8f39120",
+      "sha256": "67468b3ce5e9afc38965e7917791d0b06e01bb60b05fa68f31d1ce9a76c4a250",
+      "bytes": 5404
+    },
+    {
+      "path": "clockwidget/UPDATE_2.4.0.md",
+      "git_blob_sha1": "5b34a9652206bb41e6467e3ce7d99bd4005e2574",
+      "sha256": "000d50909e5206f9211ed23a466464f520bd006de9ed78f5095456b4fd64a764",
+      "bytes": 2303
+    },
+    {
+      "path": "clockwidget/UPDATE_3.0.0.md",
+      "git_blob_sha1": "bc4af52715d37251c497349d2402db066c8a8c0e",
+      "sha256": "e8448e64dba01ed53a20d82fe71191cad3ec651221bb1381a1d57aab8d506e0f",
+      "bytes": 3718
+    },
+    {
+      "path": "clockwidget/UPDATE_3.1.0.md",
+      "git_blob_sha1": "d0ce7ffa0265c643889d3d4ab3c6dbc1704ad482",
+      "sha256": "fa2fac8b88330b20782525336fcc7a8ccd1dd36971b3961e7cc57d249ff526f2",
+      "bytes": 4227
+    },
+    {
+      "path": "clockwidget/UPDATE_3.2.0.md",
+      "git_blob_sha1": "09f6c34537f562cd96586f9101ec41d2f806a164",
+      "sha256": "d1a9d648b91ef77eb82a4be028e02f864e9eff43e736e9e6d036ffefc05a125c",
+      "bytes": 1699
+    },
+    {
+      "path": "clockwidget/UPDATE_3.3.0.md",
+      "git_blob_sha1": "eb02cc349f985590166ddc0f2fd9709f3be2bc85",
+      "sha256": "6278930c6ef4324f7f0e780223a2a3072adaed2325c94b2941cb6dbca05a80bd",
+      "bytes": 2388
+    },
+    {
+      "path": "clockwidget/UPDATE_3.4.0.md",
+      "git_blob_sha1": "08a70bd9dab9e92b520f2f0df32f90b590b1ad89",
+      "sha256": "e62d3da4d8b03ba5ca0cdb0396e637e4af90ba190eb726c5309779f6ed1a19f3",
+      "bytes": 2667
+    },
+    {
+      "path": "clockwidget/UPDATE_3.5.0.md",
+      "git_blob_sha1": "3f7408f59388f6a1cc1bc4b2821ec90d209a4744",
+      "sha256": "fa6dda91322f846794290237ecc4b330d223428ba18133d691571993729190d2",
+      "bytes": 2037
+    },
+    {
+      "path": "clockwidget/UPDATE_3.6.0.md",
+      "git_blob_sha1": "52f98314977fbe7dbdaa7187a39c93485b293e6f",
+      "sha256": "2a1d320510d78e0b4b3b681192aca0eede24e4227ac14960b2266c38df763c81",
+      "bytes": 2640
+    },
+    {
+      "path": "clockwidget/UPDATE_3.7.0.md",
+      "git_blob_sha1": "43e8cdf041ad83cf197fa9f3825ca33032f85553",
+      "sha256": "fc311a6cc3d55979951033d15678631c81d6e8f0f14a0c32c150f25351c92b27",
+      "bytes": 2327
+    },
+    {
+      "path": "clockwidget/UPDATE_3.7.1.md",
+      "git_blob_sha1": "0a05db8803f6f6f217c08b2ad68fd9be8a1d5da0",
+      "sha256": "5627366763b4357ade0e415ffbf903dbe17632f0f605d1ed602b6a2d0b8860c1",
+      "bytes": 2756
+    },
+    {
+      "path": "clockwidget/VALIDATION.md",
+      "git_blob_sha1": "f8e31f4703f119eae28136fb723a89342fede4a7",
+      "sha256": "4055d258f815d8cff6bb3afee727dc7f294d3442fa1eeb569ca744eabac6c2e5",
+      "bytes": 26731
+    },
+    {
+      "path": "build.gradle.kts",
+      "git_blob_sha1": "1b4481acf060315324230e9286ded1ced3deaaf4",
+      "sha256": "61cd8e15a65a3ded440013250aa5c2bbc875158d0cf2db2e8fc5185ec3c69105",
+      "bytes": 217
+    },
+    {
+      "path": "settings.gradle.kts",
+      "git_blob_sha1": "ffc1caae26d750fa5479c22841ecd95ae934120c",
+      "sha256": "77d9e47028ef0f3a73d0b63c6a3ae1f88f270f7d3e3265a52b46a3a37b948428",
+      "bytes": 358
+    },
+    {
+      "path": "gradle.properties",
+      "git_blob_sha1": "0aeeb4f03c116bf1b3eed18943f4e333f349634a",
+      "sha256": "456b1211e60de28f5bbccf6a86453ba4e2f44b47ab2f02bd59272b981149b630",
+      "bytes": 139
+    },
+    {
+      "path": "scripts/build-original-clock-termux.sh",
+      "git_blob_sha1": "b59ec88a1768caf874eab8f49b64530cc19f4fc4",
+      "sha256": "e9d217df075369945ee2a1a91535d6df5f288e54f35da10bbcd94a02e393543c",
+      "bytes": 1496
+    },
+    {
+      "path": "scripts/build-classic-clock-termux.sh",
+      "git_blob_sha1": "12531f491c26be3a5fe5c220a13b422b7a0d1300",
+      "sha256": "40fe84e955d317953bf0e1125cfdd2f0d6e7eceb1a4b6e2ace2f7bf2db681019",
+      "bytes": 183
+    },
+    {
+      "path": "scripts/update-original-clock-termux.sh",
+      "git_blob_sha1": "1b7e7c691ce2e1cdb63c511848850c31911e4c0a",
+      "sha256": "f4e9e6640c6fe9055bca4a4e6abe3001c65c1baf6f63fb17aa36886c9f3b5320",
+      "bytes": 647
+    },
+    {
+      "path": "scripts/copy-original-clock-apk.sh",
+      "git_blob_sha1": "7da06bc32e7a418a4e264e9a50a583ef04cc3e1d",
+      "sha256": "f8bfb1b2a5f52a399db887527b282a93be6a145daa1ad63eecad47719d29ae52",
+      "bytes": 1544
+    },
+    {
+      "path": "scripts/verify-original-clock-apk.sh",
+      "git_blob_sha1": "7ba7e1877f0c73b3efc196b57dc25071f3f17b15",
+      "sha256": "05e337f97a2b2df5c28f75080fb1f20f6cb0481d1250525a5c8a1e4c09254607",
+      "bytes": 2731
+    }
+  ],
+  "warning": "El keystore de firma original es binario y NO esta incluido. Nunca eliminar el repositorio original sin resguardar esta firma o decidir una nueva identidad de la app."
+}

@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0-black-hole",
+  "application_id": "com.isaaclisi.rabbitglance",
+  "apk_bytes": 2664918,
+  "apk_sha256": "db7b02acb1b03224bfb65bd7bbc7b30f4b9b42a744ec552e5fb66af5a0cf5e0f",
+  "certificate_sha256": "8ad891c5f7e8c2dd199bc5680d854ff3578b90ae456c8f223fce4cbfe2b0a137",
+  "source_commit_original": "29d06ad9b1b43a2e6b2df3dcb3f2a1a200f3cf52",
+  "simulation_api": 36,
+  "physical_motorola_validation": "pending",
+  "tests_passed": 4,
+  "lint_errors": 0,
+  "lint_warnings": 13
+}
