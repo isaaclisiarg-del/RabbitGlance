@@ -1,8 +1,6 @@
 name: Build Black Hole
+# Compilación y verificación en GitHub: sólo bajo solicitud manual.
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
